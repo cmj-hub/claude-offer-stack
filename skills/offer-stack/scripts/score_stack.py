@@ -244,7 +244,7 @@ def score(data: dict) -> dict:
 
     passed = not fixes
     nxt = (
-        "Next: /pricing:pricing anchor — the pain total is the status-quo anchor;"
+        "Next: /pricing:pricing anchor, where the pain total is the status-quo anchor;"
         " then /sales-offer:cold-offer for the first touch."
         if passed
         else "Next: fix the lines above and run this again."

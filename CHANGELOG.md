@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 — 2026-10-17
+## 0.1.0 (2026-10-17)
 
 - First public MIT release.
 - Instrument: every component in the offer removes a pain the buyer has put a number on.

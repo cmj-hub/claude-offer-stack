@@ -26,7 +26,7 @@ The list describes the product. It does not say what stops hurting, or by how mu
 
 The founder asked the five questions on a discovery call with a Head of RevOps at a 40-rep software company. The answers, as written down:
 
-1. **What do you do today instead?** "Reps type their notes into the CRM after each call. The managers argue about the forecast for the first half hour."
+1. **What do you do today instead?** "Reps type their notes into the CRM after each call. The managers spend the forecast call arguing about whose numbers are right."
 2. **How often?** "Three hours a week per rep, give or take. The forecast call is weekly, two hours."
 3. **How many people?** "Forty reps. Six managers on the forecast."
 4. **What does an hour cost you?** "Call it 55 an hour loaded for a rep. 120 for a manager."
