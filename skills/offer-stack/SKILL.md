@@ -2,7 +2,7 @@
 name: offer-stack
 description: "Build and score an offer stack: what the buyer gets, line by line, where every component removes a pain the buyer has put a number on. Quantifies each pain (count x people x cost x times a year), refuses filler lines, open pains, satisfaction-only guarantees and a price bigger than the pain. Use when packaging an offer, writing what's included, quantifying pain or cost of inaction, or checking an offer before a call. Not for setting the price (pricing) or writing the first email (sales-offer)."
 argument-hint: "[kickoff | score | pain | rewrite]"
-allowed-tools: Read Write Bash(python3 ${CLAUDE_SKILL_DIR}/scripts/score_stack.py:*)
+allowed-tools: Read Write(./gtm/**) Bash(python3 ${CLAUDE_SKILL_DIR}/scripts/score_stack.py:*)
 license: MIT
 models: ""
 ---
