@@ -1,6 +1,6 @@
 {
   "name": "offer-stack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Offer stack and pain quantification: every component removes a pain the buyer has put a number on. Prints each pain's yearly cost as a sum the buyer can check, and refuses filler lines, open pains, satisfaction-only guarantees and a price bigger than the pain. Stdlib-only Python scorer. No network.",
   "author": {
     "name": "JMC Go-to-Market Systems",
