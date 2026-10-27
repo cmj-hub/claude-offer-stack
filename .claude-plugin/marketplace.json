@@ -13,7 +13,7 @@
       "source": "./",
       "description": "Build and score an offer stack against numbered pains. Refuses a component with no pain behind it.",
       "category": "productivity",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }

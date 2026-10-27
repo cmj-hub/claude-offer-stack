@@ -41,6 +41,23 @@ npx skills add cmj-hub/claude-offer-stack --skill '*' -g --full-depth -y -a clau
 
 Swap `claude-code` for `cursor`, `codex`, `grok`, `github-copilot`, `windsurf`, `cline`, or `opencode`.
 
+### From npm
+
+The same pack is on npm as [`@jmc-gtm/claude-offer-stack`](https://www.npmjs.com/package/@jmc-gtm/claude-offer-stack), released from this repo's version tags with npm provenance. It has no dependencies and no install scripts.
+
+In a project, for any agent host the skills installer knows (`experimental_sync` is still marked experimental there):
+
+```bash
+npm install -D @jmc-gtm/claude-offer-stack
+npx skills experimental_sync -a claude-code -y
+```
+
+In your own Claude Code plugin marketplace, point an entry at the package:
+
+```json
+{ "name": "offer-stack", "source": { "source": "npm", "package": "@jmc-gtm/claude-offer-stack" } }
+```
+
 ## What you walk out with in 15 minutes
 
 `gtm/offer-stack.json`: one buyer, their pains with numbers and sources, the components that remove them, a guarantee they can check, and the pain total the pricing page anchors on.
